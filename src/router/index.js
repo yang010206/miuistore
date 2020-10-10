@@ -1,14 +1,33 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Inde from "../views/inde/Inde.vue";
+import Classify from "../views/classify/Classify.vue";
+import Shopping from "../views/shopping/Shopping.vue";
+import Mine from "../views/mine/Mine.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "inde",
+    component: Inde
+  },
+  {
+    path: "/inde",
+    component: Inde
+  },
+  {
+    path: "/classify",
+    component: Classify
+  },
+  {
+    path: "/shopping",
+    component: Shopping
+  },
+  {
+    path: "/mine",
+    component: Mine
   },
   {
     path: "/about",
