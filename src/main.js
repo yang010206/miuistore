@@ -8,7 +8,7 @@ import LyTab from "ly-tab";
 import "./assets/js/rem.js";
 import "./assets/css/reset.css";
 import axios from "axios";
-Vue.prototype.$http = axios;
+Vue.prototype.$axios = axios;
 Vue.use(Vant);
 Vue.use(LyTab);
 
