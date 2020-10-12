@@ -4,6 +4,8 @@ import Inde from "../views/inde/Inde.vue";
 import Classify from "../views/classify/Classify.vue";
 import Shopping from "../views/shopping/Shopping.vue";
 import Mine from "../views/mine/Mine.vue";
+import Mineds from "../views/mine/minediz/minediz.vue";
+import sioeps from "../views/mine/minediz/sioeps.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +30,14 @@ const routes = [
   {
     path: "/mine",
     component: Mine
+  },
+  {
+    path:"/Mineds",
+    component:Mineds
+  },
+  {
+    path:"/sioeps",
+    component:sioeps
   },
   {
     path: "/about",
