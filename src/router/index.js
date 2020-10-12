@@ -4,7 +4,7 @@ import Inde from "../views/inde/Inde.vue";
 import Classify from "../views/classify/Classify.vue";
 import Shopping from "../views/shopping/Shopping.vue";
 import Mine from "../views/mine/Mine.vue";
-
+import Phoneinfo from "../views/inde/phoneinfo/Phoneinfo";
 Vue.use(VueRouter);
 
 const routes = [
@@ -15,7 +15,12 @@ const routes = [
   },
   {
     path: "/inde",
-    component: Inde
+    component: Inde,
+
+  },
+  {
+    path: "/phoneinfo",
+    component: Phoneinfo
   },
   {
     path: "/classify",
