@@ -4,30 +4,49 @@ import Inde from "../views/inde/Inde.vue";
 import Classify from "../views/classify/Classify.vue";
 import Shopping from "../views/shopping/Shopping.vue";
 import Mine from "../views/mine/Mine.vue";
-
+import Particulars from "../components/particulars/Particulars.vue";
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
     name: "inde",
-    component: Inde
+    component: Inde,
+    meta: {
+      isshow: true
+    }
   },
   {
     path: "/inde",
-    component: Inde
+    component: Inde,
+    meta: {
+      isshow: true
+    }
   },
   {
     path: "/classify",
-    component: Classify
+    component: Classify,
+    meta: {
+      isshow: true
+    }
   },
   {
     path: "/shopping",
-    component: Shopping
+    component: Shopping,
+    meta: {
+      isshow: true
+    }
   },
   {
     path: "/mine",
-    component: Mine
+    component: Mine,
+    meta: {
+      isshow: true
+    }
+  },
+  {
+    path: "/particulars",
+    component: Particulars
   },
   {
     path: "/about",
