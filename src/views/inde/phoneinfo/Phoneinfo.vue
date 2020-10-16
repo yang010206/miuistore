@@ -26,8 +26,11 @@
                 <van-goods-action-icon icon="chat-o" text="客服" dot />
                 <van-goods-action-icon icon="cart-o" text="购物车" badge="0" />
                 <van-goods-action-icon icon="shop-o" text="店铺" badge="6" />
-                <van-goods-action-button type="warning" text="加入购物车" />
-                <van-goods-action-button type="danger" text="立即购买" />
+                <van-goods-action-button
+                        type="danger"
+                        text="加入购物车"
+                        @click="onClickButton"
+                />
             </van-goods-action>
             <img :src="$store.state.obj.info_img[0].img" alt="" />
             <img :src="$store.state.obj.info_img[1].img" alt="" class="aerte" />
