@@ -4,7 +4,13 @@ import Inde from "../views/inde/Inde.vue";
 import Classify from "../views/classify/Classify.vue";
 import Shopping from "../views/shopping/Shopping.vue";
 import Mine from "../views/mine/Mine.vue";
+<<<<<<< HEAD
 import Particulars from "../components/particulars/Particulars.vue";
+=======
+import Mineds from "../views/mine/minediz/minediz.vue";
+import sioeps from "../views/mine/minediz/sioeps.vue";
+
+>>>>>>> gmt
 Vue.use(VueRouter);
 
 const routes = [
@@ -47,6 +53,14 @@ const routes = [
   {
     path: "/particulars",
     component: Particulars
+  },
+  {
+    path:"/Mineds",
+    component:Mineds
+  },
+  {
+    path:"/sioeps",
+    component:sioeps
   },
   {
     path: "/about",
